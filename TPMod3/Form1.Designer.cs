@@ -40,13 +40,11 @@
             textBox1.BorderStyle = BorderStyle.FixedSingle;
             textBox1.Font = new Font("Arial Narrow", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             textBox1.ForeColor = Color.Black;
-            textBox1.Location = new Point(87, 105);
+            textBox1.Location = new Point(95, 105);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(329, 53);
             textBox1.TabIndex = 0;
-            textBox1.Text = "INPUT";
-            textBox1.TextAlign = HorizontalAlignment.Center;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
             // button1
@@ -67,12 +65,14 @@
             label1.AutoSize = true;
             label1.BackColor = Color.OrangeRed;
             label1.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(87, 254);
+            label1.Location = new Point(95, 239);
+            label1.Margin = new Padding(0);
             label1.Name = "label1";
-            label1.Padding = new Padding(278, 20, 275, 20);
-            label1.Size = new Size(629, 59);
+            label1.Size = new Size(76, 19);
             label1.TabIndex = 2;
             label1.Text = "OUTPUT";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
+            label1.Click += label1_Click_1;
             // 
             // Form1
             // 

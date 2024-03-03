@@ -30,5 +30,10 @@ namespace TPMod3
             // Menampilkan teks yang dimasukkan ke dalam Label
             label1.Text = "HALO " + inputText;
         }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
