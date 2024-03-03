@@ -40,10 +40,13 @@
             textBox1.BorderStyle = BorderStyle.FixedSingle;
             textBox1.Font = new Font("Arial Narrow", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             textBox1.ForeColor = Color.Black;
-            textBox1.Location = new Point(88, 102);
+            textBox1.Location = new Point(87, 105);
+            textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(329, 25);
+            textBox1.Size = new Size(329, 53);
             textBox1.TabIndex = 0;
+            textBox1.Text = "INPUT";
+            textBox1.TextAlign = HorizontalAlignment.Center;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
             // button1
@@ -51,9 +54,9 @@
             button1.BackColor = Color.OrangeRed;
             button1.Font = new Font("Arial", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.Black;
-            button1.Location = new Point(498, 92);
+            button1.Location = new Point(469, 105);
             button1.Name = "button1";
-            button1.Size = new Size(190, 38);
+            button1.Size = new Size(247, 53);
             button1.TabIndex = 1;
             button1.Text = "BUTTON";
             button1.UseVisualStyleBackColor = false;
@@ -64,10 +67,10 @@
             label1.AutoSize = true;
             label1.BackColor = Color.OrangeRed;
             label1.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(156, 267);
+            label1.Location = new Point(87, 254);
             label1.Name = "label1";
-            label1.Padding = new Padding(200, 20, 200, 20);
-            label1.Size = new Size(476, 59);
+            label1.Padding = new Padding(278, 20, 275, 20);
+            label1.Size = new Size(629, 59);
             label1.TabIndex = 2;
             label1.Text = "OUTPUT";
             // 
